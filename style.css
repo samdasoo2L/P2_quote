@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.bgImage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.quote-box {
+  background-color: white;
+  width: auto;
+  max-width: 50vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+  border-radius: 10px;
+}
+.quote-saying {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+.quote-author {
+  font-size: 25px;
+}
+.restart {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 25px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: font-size 100ms ease-in-out;
+}
+.restart:hover {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+}
